@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>To-Do app</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+	<link rel="stylesheet" href="./style/style.css">
+</head>
+
+<body>
+	<h1 class="text-center">To-Do application</h1>
+
+	<div class="container">
+		<div class="row g-3">
+			<div class="col-8">
+				<input type="text" class="form-control" id="inputTask" placeholder="Input task">
+			</div>
+			<button class="btn btn-primary col-4" id="btn-add">Add task</button>
+		</div>
+
+		<ul class="row g-3" id="list">
+			<li><span class='good'>execute </span> Task1 <span class='gg'>Delete</span></li>
+			<li><span class='good'>execute </span> Task2 <span class='gg'>Delete</span></li>
+			<li><span class='good'>execute </span> Task3 <span class='gg'>Delete</span></li>
+
+		</ul>
+
+		<div class="count">
+			<div class="count__column">
+				<span>Всего задач:</span>
+				<div class="count__all">4</div>
+			</div>
+			<div class="count__column">
+				<span>Выполнены:</span>
+				<div class="count__good">4</div>
+			</div>
+			<div class="count__column">
+				<span>Не выполнены:</span>
+				<div class="count__fail">4</div>
+			</div>
+		</div>
+		<button id="bb">Информация о разработчике</button>
+		<div class="info" style="display: none;">
+			<p>Информация о разработчике:</p>
+			<div class="info__value">Имя: <span>Глеб</span></div>
+			<div class="info__value">Фамилия: <span>Смык</span></div>
+			<div class="info__value">Отчество: <span>Иванович</span></div>
+		</div>
+	</div>
+
+	<script src="./script/script.js"></script>
+</body>
+
+</html>

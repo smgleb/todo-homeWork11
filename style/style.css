@@ -1,0 +1,57 @@
+ul {
+	list-style-type: none;
+}
+
+li .gg {
+	color: red;
+	cursor: pointer;
+	/*  border: 1px solid red; */
+}
+
+#list li:first-child {
+	margin-top: 30px;
+}
+.info span {
+	font-size: 20px;
+}
+.good {
+	color: green;
+	cursor: pointer;
+}
+.info__value {
+	font-size: 18px;
+}
+p {
+	margin: 0px 0px 0px 0px;
+	font-size: 24px;
+}
+.info {
+	margin: 20px 0px 0px 0px;
+}
+#bb {
+	margin: 50px 0px 0px 0px;
+}
+
+.count {
+	display: flex;
+	flex-wrap: nowrap;
+}
+.count__column {
+	display: flex;
+	margin: 50px 50px 0px 0px;
+}
+.count__column span {
+	font-size: 30px;
+}
+.count__good {
+	font-size: 30px;
+	margin: 0px 0px 0px 20px;
+}
+.count__fail {
+	font-size: 30px;
+	margin: 0px 0px 0px 20px;
+}
+.count__all {
+	font-size: 30px;
+	margin: 0px 0px 0px 20px;
+}
