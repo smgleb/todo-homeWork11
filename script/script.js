@@ -11,7 +11,7 @@ function getLink() {
 	let inpContent = inp.value;
 	inp.value = '';
 	let date = new Date();
-	if (inpContent !== '') {
+	if (inpContent.trim() !== '') {
 		list.insertAdjacentHTML(
 			'beforeend',
 			`<li><span class='good'>execute </span> Task: ${inpContent}. >>>> Date:${date} <span class='gg'>Delete</span></li>`
